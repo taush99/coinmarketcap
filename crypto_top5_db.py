@@ -5,7 +5,7 @@ import json
 import sqlite3
 
 crypto = Tk()
-crypto.title("My Crypto Portfolio")
+crypto.title("My Crypto Portfolio - Using SQLite DB")
 crypto.iconbitmap('favicon.ico')
 con = sqlite3.connect('coin_data.db')
 cursorObj = con.cursor()
